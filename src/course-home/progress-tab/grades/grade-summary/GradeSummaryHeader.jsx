@@ -22,7 +22,7 @@ function GradeSummaryHeader({ intl, allOfSomeAssignmentTypeIsLocked }) {
 
   return (
     <div className="row w-100 m-0 align-items-center">
-      <h3 className="h4 mb-3 mr-1">{intl.formatMessage(messages.gradeSummary)}</h3>
+      <h3 className="h4 mb-3 mr-1">{intl.formatMessage(messages.gradeSummary)}  [THIS HERE SHOULD BE VISIVLE]</h3>
       <OverlayTrigger
         trigger="click"
         placement="top"
