@@ -43,6 +43,7 @@ function ProgressTab() {
           <CourseGrade />
           <div className={`grades my-4 p-4 rounded raised-card ${applyLockedOverlay}`} aria-hidden={gradesFeatureIsFullyLocked}>
             <GradeSummary />
+<h2>I THINK IT WORKS!!!</h2>
             <DetailedGrades />
           </div>
         </div>
